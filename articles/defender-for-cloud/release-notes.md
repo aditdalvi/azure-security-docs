@@ -3,7 +3,7 @@ title: What's new in Defender for Cloud features
 description: Learn about new, updated, and deprecated features in Microsoft Defender for Cloud, including preview releases, general availability updates, and upcoming changes.
 ms.topic: overview
 ms.custom: references_regions
-ms.date: 06/09/2026
+ms.date: 06/18/2026
 ---
 
 # What's new in Defender for Cloud features
@@ -32,6 +32,7 @@ This article summarizes what's new in Microsoft Defender for Cloud. It includes 
 
 | Date | Category | Update |
 | -------- | -------- | -------- |
+| June 18, 2026 | GA | [API security posture management for Function Apps and Logic Apps is now generally available](#api-security-posture-management-for-function-apps-and-logic-apps-is-now-generally-available) |
 | June 9, 2026 | Preview | [New multicloud security recommendations now in public preview](#new-multicloud-security-recommendations-now-in-public-preview) |
 | June 8, 2026 | GA | [SQL Vulnerability Assessment Express Configuration is now generally available for Azure SQL Managed Instance and Azure Synapse Analytics workspaces](#sql-vulnerability-assessment-express-configuration-is-now-generally-available-for-azure-sql-managed-instance-and-azure-synapse-analytics-workspaces) |
 | June 4, 2026 | Preview | [Discovery and posture for serverless container workloads (Preview)](#discovery-and-posture-for-serverless-container-workloads-preview) |
@@ -43,6 +44,27 @@ This article summarizes what's new in Microsoft Defender for Cloud. It includes 
 | June 1, 2026 | Preview | [New actionable recommendation to upgrade AKS for system pod vulnerabilities (Preview)](#new-actionable-recommendation-to-upgrade-aks-for-system-pod-vulnerabilities-preview) |
 | June 1, 2026 | GA | [Serverless protection for Azure and AWS is now generally available](#serverless-protection-for-azure-and-aws-is-now-generally-available) |
 
+
+### API security posture management for Function Apps and Logic Apps is now generally available
+
+June 18, 2026
+
+API discovery and security posture management in the Defender Cloud Security Posture Management (CSPM) plan for APIs hosted in Azure Function Apps and Azure Logic Apps is now generally available. This capability extends API security posture management in Microsoft Defender for Cloud beyond Azure API Management to your serverless and workflow APIs.
+
+With this release, you can:
+
+- Discover APIs hosted in Function Apps and Logic Apps alongside APIs managed in Azure API Management, with automated onboarding into Defender for Cloud.
+- Assess API security recommendations with risk factors, including unauthenticated APIs, APIs exposed to the internet, inactive or dormant APIs, and APIs that permit unencrypted traffic.
+- Investigate API risks and attack paths across your environment by using Cloud Security Explorer and attack path analysis.
+
+The following API security recommendations are also now generally available as part of this release:
+
+- Unused API endpoints should be disabled and removed from Function Apps
+- Unused API endpoints should be disabled and removed from Logic Apps
+- Authentication should be enabled on API endpoints hosted in Function Apps
+- Authentication should be enabled on API endpoints hosted in Logic Apps
+
+Learn more about [API security posture management](api-security-posture-overview.md) and how to [enable API security posture with Defender CSPM](enable-api-security-posture.md).
 
 ### New multicloud security recommendations now in public preview
 
@@ -503,7 +525,7 @@ Microsoft Defender for APIs and API security posture management with Defender CS
 - South Africa North
 - South Africa West
 
-Customers who have Azure API Management services in these regions can now use the capabilities offered by Microsoft Defender for APIs and API security posture management with Defender CSPM. API discovery and security posture capabilities in Defender CSPM for Azure Function Apps and Azure Logic Apps have also been expanded to these regions. This feature is still in preview.
+Customers who have Azure API Management services in these regions can now use the capabilities offered by Microsoft Defender for APIs and API security posture management with Defender CSPM. API discovery and security posture capabilities in Defender CSPM for Azure Function Apps and Azure Logic Apps have also been expanded to these regions.
 
 Learn more about [Microsoft Defender for APIs](defender-for-apis-introduction.md) and [API security posture management with Defender CSPM](api-security-posture-overview.md).
 

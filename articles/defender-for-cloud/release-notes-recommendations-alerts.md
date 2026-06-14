@@ -2,7 +2,7 @@
 title: New and upcoming changes in recommendations, alerts, and incidents
 description: Get release notes for new and upcoming changes in recommendations, alerts, and incidents in Microsoft Defender for Cloud. 
 ms.topic: overview
-ms.date: 06/11/2026
+ms.date: 06/18/2026
 #customer intent: As a Defender for Cloud admin, I want to stay up to date on the latest new and changed security recommendations and alerts.
 ---
 
@@ -49,6 +49,10 @@ New and updated recommendations, alerts, and incidents are added to the table in
 
 | **Date announced**     | **Type**       | **State**            | **Name**                                                     |
 | ------------ | -------------- | -------------------- | ------------------------------------------------------------ |
+| June 18, 2026 | Recommendation | GA | [Unused API endpoints should be disabled and removed from Function Apps](recommendations-reference-api.md#unused-api-endpoints-should-be-disabled-and-removed-from-function-apps) |
+| June 18, 2026 | Recommendation | GA | [Unused API endpoints should be disabled and removed from Logic Apps](recommendations-reference-api.md#unused-api-endpoints-should-be-disabled-and-removed-from-logic-apps) |
+| June 18, 2026 | Recommendation | GA | [Authentication should be enabled on API endpoints hosted in Function Apps](recommendations-reference-api.md#authentication-should-be-enabled-on-api-endpoints-hosted-in-function-apps) |
+| June 18, 2026 | Recommendation | GA | [Authentication should be enabled on API endpoints hosted in Logic Apps](recommendations-reference-api.md#authentication-should-be-enabled-on-api-endpoints-hosted-in-logic-apps) |
 | June 9, 2026 | Recommendation | Preview | New preview multicloud recommendations are now available for AWS MSK, AWS OpenSearch Service, GCP App Engine, and GCP Certificate Manager across networking, data, identity and access, and compute categories. |
 | June 8, 2026 | Recommendation | Preview | [Customer-managed KMS key should be configured for encryption on Amazon AppFlow Flows (Preview)](recommendations-reference-data.md#customer-managed-kms-key-should-be-configured-for-encryption-on-amazon-appflow-flows) |
 | June 8, 2026 | Recommendation | Preview | [Glue Data Catalog metadata registration should be configured on AppFlow flows (Preview)](recommendations-reference-data.md#glue-data-catalog-metadata-registration-should-be-configured-on-appflow-flows) |
